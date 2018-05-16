@@ -1,0 +1,6 @@
+[info]
+title=TreeHelper for PHP
+desc=TreeHelper for CudaTree, adds support for PHP lexer
+type=cudatext-plugin
+subdir=cuda_tree_php
+homepage=https://github.com/CudaText-addons/cuda_tree_php
