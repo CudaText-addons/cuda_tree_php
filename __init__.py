@@ -24,8 +24,3 @@ def get_headers(filename, lines):
             kind,
             ) ]
     return r
-
-
-helper = {
-  'PHP': get_headers,
-}

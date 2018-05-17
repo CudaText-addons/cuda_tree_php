@@ -1,5 +1,6 @@
 
 2018.05.17
+* updated for last CudaTree
 * change icon for "trait"
 
 2018.05.16
