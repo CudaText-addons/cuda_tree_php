@@ -1,3 +1,6 @@
 
+2018.05.17
+* change icon for "trait"
+
 2018.05.16
 initial
