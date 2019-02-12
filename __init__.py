@@ -1,10 +1,13 @@
 from . import pyphptree
 
-def kind_to_icon(s):
+def _icon(s):
 
-    if s=='class': return 1
-    if s=='function': return 5
-    if s=='trait': return 2
+    if s=='class':
+        return 1
+    if s=='function':
+        return 5
+    if s=='trait':
+        return 2
     return 0
 
 def get_headers(filename, lines):
@@ -20,13 +23,14 @@ def get_headers(filename, lines):
 
     for v in items:
         name = v['name'] or '??'
-        kind = kind_to_icon(v['kind'])
-        line = v['line']
-        col = v['col']
+        kind = _icon(v['kind'])
+        y = v['line']
+        x = v['col']
+        lev = v['level']+1 
 
         r += [ ( 
-            (col, line, col+1, line),
-            v['level']+1,
+            (x, y, x+len(name), y),
+            lev,
             name,
             kind,
             ) ]
