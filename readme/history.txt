@@ -1,10 +1,12 @@
+2025.03.20
+- fix: fix level of function on level=2 where level=1 is formed by 'if'
 
 2019.02.12
-- adapt to new CudaText
+- fix: adapt to new CudaText
 
 2018.05.17
 * updated for last CudaTree
 * change icon for "trait"
 
 2018.05.16
-initial
+initial version
