@@ -34,6 +34,7 @@ KEYWORDS_LOOP = (
     'for',
     'foreach',
     'do',
+    'switch',
     )
 
 ST_NONE = 0 # at usual tokens
