@@ -1,3 +1,6 @@
+2025.09.30
+- fix: proper handle PHP keyword "switch" (by @ildarkhasanshin)
+
 2025.03.20
 - fix: fix level of function on level=2 where level=1 is formed by 'if'
 
