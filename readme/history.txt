@@ -1,3 +1,6 @@
+2026.02.19
+- fix: proper handle PHP keyword "try" (by @ildarkhasanshin)
+
 2025.09.30
 - fix: proper handle PHP keyword "switch" (by @ildarkhasanshin)
 
